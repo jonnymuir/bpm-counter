@@ -14,13 +14,13 @@ A simple web application to measure your beats per minute (BPM).
      python3 -m http.server
      ```
 
-##How to Use:
+## How to Use:
 
 1. Click the "Tap to Measure BPM" button.
 2. Tap the button in time with the desired tempo.
 3. View the calculated BPM, elapsed time, and bar/beat information.
 
-##Technical Details:
+## Technical Details:
 - JavaScript: The core logic is implemented in JavaScript using a functional approach.
 - HTML: The structure of the web page is defined using HTML.
 - CSS: Styles the appearance of the web page.
