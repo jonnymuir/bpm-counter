@@ -1,24 +1,34 @@
 body {
     font-family: sans-serif;
     text-align: center;
-}
-
-#bpm-button {
-    width: 200px;
-    height: 200px;
+    font-size: 16px; /* Base font size */
+  }
+  
+  #bpm-button, #play-button1 {
+    width: 12.5rem;
+    height: 12.5rem;
     border-radius: 50%;
     border: none;
     background-color: #007bff;
     color: white;
-    font-size: 24px;
+    font-size: 1.5rem;
     cursor: pointer;
-}
-
-#bpm-display {
-    font-size: 36px;
-    margin-top: 20px;
-}
-
-.button-tap {
-    transform: scale(0.99);
+    touch-action: none;
+  }
+  
+  #beat-input-label {
+    font-size: 2.25rem;
+  }
+  
+  #beat-input {
+    font-size: 2.25rem;
+    margin-top: 1.25rem;
+    width: 9.375rem;
+    padding: 0.625rem;
+    border-radius: 0.3125rem;
+    border: 1px solid #ccc;
+  }
+  
+  .button-tap {
+    transform: scale(0.95);
   }
