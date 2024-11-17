@@ -15,6 +15,11 @@ body {
     cursor: pointer;
     touch-action: none;
   }
+
+  #play-button1 {
+    width: 6.25rem;
+    height: 6.25rem;
+  }
   
   #beat-input-label {
     font-size: 2.25rem;
